@@ -1,6 +1,45 @@
 {
-  "name": "react-native-slideable-calendar-strip",
-  "version": "0.4.0",
+  "_from": "react-native-slideable-calendar-strip",
+  "_id": "react-native-slideable-calendar-strip@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-juuU8HzECXQS0NQCQdaXyXaajUTM99k58/mzyJAdSiuoINXM+9WHNmpZKcRy4AVetpmHmTfz1i/UG81QsSUWXw==",
+  "_location": "/react-native-slideable-calendar-strip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-slideable-calendar-strip",
+    "name": "react-native-slideable-calendar-strip",
+    "escapedName": "react-native-slideable-calendar-strip",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-slideable-calendar-strip/-/react-native-slideable-calendar-strip-0.4.0.tgz",
+  "_shasum": "9d4a086c2153c3ee6b4ad3b1f75e6179bd7df72d",
+  "_spec": "react-native-slideable-calendar-strip",
+  "_where": "/Users/a1/Desktop/AUXSWOT/auxswotNGX",
+  "author": {
+    "name": "FaiChou"
+  },
+  "bugs": {
+    "url": "https://github.com/FaiChou/react-native-slideable-calendar-strip/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chinese-lunar": "^0.1.4",
+    "date-fns": "^1.29.0"
+  },
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1"
+  },
+  "homepage": "https://github.com/FaiChou/react-native-slideable-calendar-strip",
   "keywords": [
     "calendar",
     "slideable",
@@ -9,30 +48,20 @@
     "strip",
     "Chinese lunar"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-slideable-calendar-strip",
+  "peerDependencies": {
+    "react": ">= 15.x",
+    "react-native": ">= 0.47.x"
+  },
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/FaiChou/react-native-slideable-calendar-strip.git"
-  },
-  "author": "FaiChou",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FaiChou/react-native-slideable-calendar-strip/issues"
-  },
-  "homepage": "https://github.com/FaiChou/react-native-slideable-calendar-strip",
-  "main": "index.js",
-  "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1"
+    "url": "git+https://github.com/FaiChou/react-native-slideable-calendar-strip.git"
   },
   "scripts": {
     "test": "echo \"Already test passed!\" && exit 0"
   },
-  "dependencies": {
-    "chinese-lunar": "^0.1.4",
-    "date-fns": "^1.29.0"
-  },
-  "peerDependencies": {
-    "react": ">= 15.x",
-    "react-native": ">= 0.47.x"
-  }
+  "version": "0.4.0"
 }
