@@ -4,10 +4,9 @@ import {
   Text,
   Dimensions
 } from 'react-native';
-const width = Dimensions.get('window').width;
 const WEEK = ['អាទិត្យ', 'ច័ន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'];
 const WEEK_en = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-export default ({ isKhmer, weekStartsOn }) => {
+export default ({ isKhmer, weekStartsOn, width }) => {
   const week_localized = isKhmer ? WEEK : WEEK_en;
   const weekStartsOnMinnor = weekStartsOn % 7;
   const weekTranformed = [
